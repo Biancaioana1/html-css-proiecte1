@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formular in HTML </title>
+    </head>
+ <body> 
+    <form>
+    <label for="fullname"> Nume complet</label>    
+<input 
+type="text"
+ id="fullname"
+  name="fullname"
+  placeholder="întrodceți numele complet"
+  required 
+  minlength="3"
+  maxlength="50"
+  /> 
+  <br/>
+<label for="email">Aderesa de email</label>
+<input 
+type="email" 
+id="email"
+name="email"
+ placeholder="întrodceți Aderesa de email"
+ required
+ />
+<br/>
+<label for="password">parolă</label>
+<input 
+type="password" 
+id="password" 
+name="password" 
+placeholder="întrodceți parolă"
+required
+minlength="6"
+/> 
+<br/>
+<label for="birthdate"> Data nașterii</label>
+<input type="date" id="birthdate" name="birthdate" required/> <br/>
+<input type="checkbox" name="terms"required>Termeni și condiții <br/>
+<button type="submit">înregistrare</button>
+<button type="reset">Resetare</button>
+ </form>
+ </body>
+</html>
