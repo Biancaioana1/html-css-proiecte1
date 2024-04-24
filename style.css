@@ -1,0 +1,202 @@
+/*  Definirea variabile css - acestea fiind                 
+reutilizabile  */
+:root{
+    --orange:#FF6B0A;
+    --orange-light:#ff7757;
+    --white: #FFFFFF;
+    --grey:#172432;
+    --main-font:"Montserrat","sans-serift";
+    --secondary-font:"Playfair Display","serif";
+    --tertiary-font:"Rubik","sans-serif";
+    --transparent-black:rgba(0,0,0,0.3);
+    --dark-tranparent-black:rgba(0,0,0,0.2);
+}
+/*Headings style*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family:var(--secondary-font);
+}
+
+
+/* Button reset style */
+
+
+p{
+ font-family:var(--main-font) ;
+}
+
+
+a{
+ text-decoration:none;
+ color:inherit;
+}
+
+button{
+    border:none;
+    background:none;
+    font-family:inherit;
+    font-size:inherit;
+    cursor: pointer;
+}
+
+
+/* heder style */
+
+header{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-top:32px;
+    padding-bottom:32px;
+    margin-bottom:-113px;
+}
+
+/* HERO SECTION */
+.hero{
+    height:100vh;
+    display:flex;
+    color:var(--white);
+    align-items:center;
+    justify-content: left;
+    background-image:url("./images/images-hero.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed ;
+    padding-left:8%;
+    padding-right:8%;
+
+}
+
+.hero-title{
+    font-size:84px;
+    font-weight:300;
+    margin-bottom:16px;
+    line-height:1.4;
+
+}
+
+
+.hero_descript{
+    font-size:24px;
+    font-weight:300;
+    margin-bottom:60px;
+
+}
+
+
+.hero_button{
+font-size:64px;
+color: var(--white);
+border-radius:12px;
+padding:10px 40px;
+}
+
+.hero_button:hover{
+   background-color: var(--orange);
+}
+
+/* destinations section style*/
+.destinations{
+    padding:140px;
+    padding-left:8%;
+    padding-right:8%;
+}
+
+.destinations-titile{
+    font-size:64px;
+    margin-bottom:32px;
+    font-weight:300;
+}
+
+.destinations-line{
+    max-width:365px;
+    border:1px solid var(--orange-light);
+    margin-bottom:32px;
+}
+
+.destinations-descript{
+    font-size:24px;
+}
+
+.destinations-cards{
+    margin-top:10px;
+    display:flex;
+        flex-direction:row;
+    gap:30px;
+    color: var(--white);
+
+
+}
+
+.destinations-cards{
+    width: 497px;
+    height:661px;
+    background-color: red;
+    flex-direction:column;
+    justify-content:flex-end;
+    -ms-flex-align:flex-start;
+    display:flex;
+    padding:40px 24px 40px 24px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    
+}
+.destinations-cards h3{
+    font-size:28px;
+    margin-bottom:16px;
+
+}
+
+.destinations-cards p{
+    font-size: 25px;
+}
+
+
+.destinations-cards--1{
+    background-image: url("./images/image1\ .jpg");
+
+}
+
+.destinations-cards--2{
+    background-image: url("./images/img\ 2.jpg");
+}
+
+.destinations-cards--3{
+    background-image: url("./images/img2.jpg");
+}
+/* Footer section */
+.footer{
+ background-color:var(--grey);
+ padding:100px 8%;
+ display: flex;
+ justify-content: space-between;
+ color: var(--white);
+
+
+}
+.footer-logo p{
+font-size:14px;
+margin-top:16px;
+}
+
+
+.footer h4{
+font-family:var(--main-font);
+font-size:24px;
+margin-bottom:16pxx;
+}
+
+.footer li{
+    margin-bottom:12px;
+    font-family:var(--secondary-font);
+}
+
+.footer-social div{
+display:flex;
+gap:20px;
+align-items:center;
+}
