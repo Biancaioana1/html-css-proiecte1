@@ -1,118 +1,120 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Un site de calatorii</title>
-    <!--Google fonts-->
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,00..900;,00..900&family=Playfair+Display:ital,wght@0,400..900;,400..900&family=Rubik:ital,wght@0,300..900;,300..900&display=swap"
-      rel="stylesheet"
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Bianca Frăsineanu,web developer,proiecte,website,website de prezentare,aplicatie"
     />
-    <!--RESETARE css-->
+    <meta
+      name="description"
+      content="Eu sunt Bianca și aceasta,este pagina mea web ,creată de mine cu HTML și CSS, mai jos sunt rețelele de socializare și Proiectele mele"
+    />
+    <meta name="author" content="Bianca Frăsineanu" />
+    <meta name="robots" content="index,follow" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bianca frăsineanu- pagina web</title>
   </head>
   <body>
-    <!--heder section-->
-    <header>
-      <a href="#"
-        ><img
-          src="./icons/Logo.svg"
-          alt="Logo travel"
-        />
-      </a>
-    </header>
-    <!--stilizare site-->
-
+    <header></header>
     <main>
-      <section class="hero">
-        <div class="hero_inner">
-          <!--hero section-->
-          <h1 class="hero-title">
-            Start your unforgettable <br />
-            journey with us
-          </h1>
-          <p class="hero_descript">
-            The best travel for your journey begins now
-          </p>
-          <button class="hero_button">Destinations</button>
-        </div>
-      </section>
-
-      <!--Top destinations section-->
-
-      <section class="destinations">
-        <h2 class="destinations-titile">Popular Destinations</h2>
-        <div class="destinations-line"></div>
-        <p class="destinations-descript">
-
-          Most Popular destinations around the wold,from historical places to
-          natural wonders.
-        </p>
-            <div class="destinations-cards destinations-cards--1 "> 
-            <h3>Monument of Berlin</h3>
-            <div><img src="./icons/location -2icon.svg" alt="location-icon"></div>
-            <p> Berlin,Geramny</p>
+      <div class="page-container">
+        <!--Start pofile section -->
+        <section class="profile">
+          <div class="profile-image">
+            <img
+              src="./imges/poza-profil.jpg"
+              alt="imagine de profil Biancaf"
+            />
           </div>
-          <div class="destinations-cards destinations-cards--2">
-              <h3>Sinaia,Romania</h3>
-              <div><img src="./icons/location -2icon.svg" alt="location-icon"></div>
-              <p>Peleș castle</p>
+          <div class="profile-details">
+            <h1>Bianca Frăsineanu</h1>
+            <p>
+              Bună Eu sunt Bianca și aceasta,este pagina mea web ,creată de mine
+              cu HTML și CSS, mai jos sunt rețelele de socializare și Proiectele
+              mele
+            </p>
           </div>
-          <div class="destinations-cards destinations-cards--3">
-            <div><img src="./icons/location -2icon.svg" alt="location-icon"></div>
-            <h3>Tour Eiffel </h3>
-            <p>Paris,france</p></div>
-        </div>
-      </section>
+          <div class="tags">
+            <span>#webdev</span>
+            <span>#travel</span>
+          </div>
+        </section>
+        <!--End pofile section -->
+
+        <!--Start projects section -->
+        <section class="projects">
+          <h2 class="section-title">Proiectele mele</h2>
+          <div class="projects-container">
+            <div class="project">
+              <div class="project-details">
+                <p class="project-title">
+                  Acest proiect este un site web de prezentare un blog călătorie
+                  în Spania
+                  <a href="#" target="_blank" class="btn-outline">
+                    Vezi proiectul
+                  </a>
+                </p>
+              </div>
+              <img
+                src="imges/Spain-Background.jpg"
+                alt="website de prezentare spain"
+              />
+              <p class="project-title">
+                website de prezentare călătorie în Spania
+              </p>
+            </div>
+          </div>
+          <div class="project">
+            <div class="project-details">
+              <p class="project-title">
+                Acest un site web în care pus o poiezie sccrisă in HTML
+                <a href="#" target="_blank" class="btn-outline">
+                  Vezi proiectul
+                </a>
+              </p>
+            </div>
+            <img
+              src="imges/06a35c8a879d4a05cf9c243d1cbfe674.jpg"
+              alt="imagine web poiezie"
+            />
+            <p>websit blog</p>
+          </div>
+          <div class="project">
+            <div class="project-details">
+              <p>
+                Acesta este un blog
+                <a href="#" target="_blank" class="btn-outline">
+                  Vezi proiectul
+                </a>
+              </p>
+            </div>
+            <img src="imges/photo- blog-a87cd0f5b5f3.avif" alt="website blog" />
+            <p>Acesta este un blog</p>
+          </div>
+        </section>
+        <!--End projects section -->
+        <!-- Start contact section -->
+        <section class="contact">
+          <h2 class="section-title">Unde mă găasești</h2>
+          <ul class="profile-links">
+            <li>
+              <a href="#" target="_blank"> pagina de facebook </a>
+            </li>
+            <li>
+              <a href="#" target="_blank"> pagina de GitHub </a>
+            </li>
+            <li>
+              <a href="mailto:frasineanubianca203@gmail.com" target="_blank">
+                Trimite-mi un email
+              </a>
+            </li>
+          </ul>
+        </section>
+        <!-- End contact section -->
+      </div>
     </main>
-
-
-
-    <!--Footer section-->
-    <footer class="footer">
-      <div class="footer-logo">
-        <img src="./icons/Logo.svg" alt="Logo-Icon" />
-        <p>Copyright © Travellian 2020 All rights reserved</p>
-      </div>
-      <div class="footer-menu">
-        <h4>Menu</h4>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Explore</a></li>
-          <li><a href="#"> Travel</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Pricing</a></li>
-        </ul>
-      </div>
-      <div class="footer-info">
-        <h4>Information</h4>
-        <ul>
-          <li><a href="#">Destinations</a></li>
-          <li><a href="#">Supports</a></li>
-          <li><a href="#">Terms & Conditions</a></li>
-          <li><a href="#">Privacy</a></li>
-        </ul>
-      </div>
-      <div class="footer-contact">
-        <h4>Contact Info</h4>
-        <ul>
-          <li><a href="tel:+123 456 789">+123 456 789</a></li>
-          <li><a href="mailto:info@travellian.com">info@travellian.com</a></li>
-          <li><a href="#">1245, New Yourk, USA</a></li>
-        </ul>
-      </div>
-      <div class="footer-social">
-        <h4>Follow us on</h4>
-        <div>
-          <a href="#"><img src="./icons/facebook .svg" alt="facebook icon"></a>
-          <a href="#"><img src="./icons/instagram .svg" alt="instagram icon"></a>
-          <a href="#"><img src="./icons/pinterest .svg" alt="pinterest icon"></a>
-          <a href="#"><img src="./icons/twitter .svg" alt="twitter icon"></a>
-        </div>
-      </div>
-
-    </footer>
+    <footer>&copy;Copyright 2024.Toate drepturile rezervate.</footer>
   </body>
 </html>
